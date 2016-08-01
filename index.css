@@ -1,0 +1,198 @@
+#background {
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+	width: 1021px;
+	height: 480px;
+	background-image: url("Frame.BMP");
+	background-color: #bfbfbf;
+}
+
+
+
+#top_globe {
+	margin-top: 4px;
+	margin-right: 4px;
+	float: right;
+	width: 16px;
+	height: 16px;
+	background-color: #bfbfbf;
+	background-image: url("globe.gif");
+}
+
+
+
+#body_load {
+	margin-top: 170px;
+	margin-left: 180px;
+	width: 64px;
+	height: 64px;
+	background-color: #bfbfbf;
+	background-image: url("load1.gif");
+}
+#body_loadBAR {
+	margin-top: 1px;
+	margin-left: 102px;
+	width: 220px;
+	height: 19px;
+	background-color: #bfbfbf;
+	background-image: url("bar01.gif");
+}
+#body_login {
+	margin-top: 73px;
+	margin-left: 18px;
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+#body_button_O {
+	margin-top: 5px;
+	margin-left: 18px;
+	width: 182px;
+	height: 23px;
+}
+#body_button_A {
+	margin-top: 5px;
+	margin-left: 18px;
+	width: 182px;
+	height: 23px;
+	background-image: url("Button_A.png");
+}
+#body_button_IA {
+	margin-top: 5px;
+	margin-left: 18px;
+	width: 182px;
+	height: 23px;
+	background-image: url("Button_IA.png");
+}
+
+
+
+#main_main {
+	float: right;
+	margin-top: 64px;
+	margin-left: 18px;
+	width: 550px;
+	height: 350px;
+}
+#main_head{
+	margin-top: 0px;
+	width: 100%;
+	height: 50px;
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	background-color: #d9d9d9;
+}
+#main_head_LOGOleft{
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 50px;
+	width: 50px;
+	background-image: url("LOGOS/debian.png");
+	float: left;
+}
+#main_head_LOGOright{
+	margin-left: 0px;
+	margin-top: 0px;
+	height: 50px;
+	width: 50px;
+	background-image: url("LOGOS/pi2.png");
+	float: right;
+}
+#main_body_Image{
+	margin-left: 0px;
+	margin-top: 30px;
+	height: 200px;
+	width: 550px;
+	background-image: url("pi.png");
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	background-color: #d9d9d9;
+}
+
+
+
+h1{
+    font-family: verdana;
+    font-size: 12px;
+    color: back;
+}
+h2{
+    font-family: verdana;
+    font-size: 14px;
+    color: back;
+}
+h3{
+    font-family: verdana;
+    font-size: 12px;
+    color: white;
+}
+h4{
+    font-family: verdana;
+    font-size: 26px;
+    color: black;
+}
+h5{
+    font-family: verdana;
+    font-size: 6px;
+    color: black;
+}
+
+.link{
+	font-family: verdana;
+	font-size: 14px;
+	color: black;
+}
+.myButton_A{
+	margin-top: 5px;
+	width: 182px;
+	height: 23px;
+	border: none;
+	background-image: url("Button_A.png") ;
+    font-family: verdana;
+    font-size: 12px;
+    color: white;
+}
+.myButton_IA{
+	margin-top: 5px;
+	width: 182px;
+	height: 23px;
+	border: none;
+	background-image: url("Button_IA.png") ;
+    font-family: verdana;
+    font-size: 12px;
+    color: white;
+}
+.myButton_IA:hover{
+	background-image: url("Button_A.png") ;
+}
+.mytextbox{
+	margin-top: 5px;
+	width: 182px;
+	height: 30px;
+	border: none;
+	background-image: url("textbox2.png") ;
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+}
+.mycheckbox{
+	margin-top: 5px;
+	width: 27px;
+	height: 27px;
+	border: none;
+	background-image: url("checkbox_IA.png") ;
+    font-family: Arial;
+    font-size: 14px;
+    color: black;
+}
+.top0text{
+	margin-top: 5px;
+}
+.top1text{
+	margin-top: 1px;
+}

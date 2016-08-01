@@ -1,0 +1,23 @@
+	// Location changer with data content
+			$port = 080;
+			$server= 'localhost';
+			$url = $nextpage . ".php";
+			$content = 'keyset=' . $key;
+			$content_length = strlen($content);
+			$headers= "POST $url HTTP/1.0\r\nContent-type: text/html\r\nHost: $server\r\nContent-length: $content_length\r\n\r\n";
+			$fp = fsockopen($server, $port, $errno, $errstr);
+			if (!$fp) return false;
+			fputs($fp, $headers);
+			fputs($fp, $content);
+			$ret = "";
+			while (!feof($fp)) {
+			$ret.= fgets($fp, 1024);
+			}
+			fclose($fp);
+			print $ret;
+			
+			
+			
+			
+			
+			
